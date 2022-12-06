@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1f1f1f;
+  margin: 0;
+}
+.header {
+  background:linear-gradient(90deg,#4dbf00 0%, #1f1f1f 100%);
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.contact-box {
+  background-color: #f2f2f2;
+  width: 30%;
+  padding: 10px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+.contact-box input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact-box input[type=submit] {
+    background:linear-gradient(90deg,#4dbf00 0%, #1f1f1f 100%);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-box input[type=submit]:hover {
+  background-color: grey;
+}
+p{
+    background:linear-gradient(90deg,#4dbf00 0%, #1f1f1f 100%);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+  margin-left: 44%;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Contact Us</h1>
+</div>
+
+<div class="contact-box">
+  <form>
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="name" placeholder="Your name..">
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="email" placeholder="Your email address..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+
+</div>
+<a href="project.html"><p>Back to home page</p></a>
+
+</body>
+</html>
